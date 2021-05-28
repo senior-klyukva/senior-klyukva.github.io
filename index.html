@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="icon.png" type="image/x-icon">
+	<title>Klyukva</title>
+	<link rel="stylesheet" type="text/css" href="css/klyuk.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
+</head>
+<body>
+<!-- Preloader -->
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
+<div class="topbar">
+	<div class="links">
+	</div>
+</div>
+
+<div id="example">
+	Klyukva
+</div>
+<div class="description">
+	Здесь нет ничего особенного, только проекты, <br>которые никому не нужны.
+</div>
+
+	<div class="form__group field search">
+	  <input type="input" class="form__field" onkeyup="myFunction()" placeholder="Поиск..." name="mySearch" id='mySearch' required />
+	  <label for="mySearch" class="form__label">Поиск...</label>
+	</div>
+	<ul id="myMenu">
+	<div class="card">
+	  <li><a class="card" href="discordbot/index.html" ><img src="joji.jpg"><br><a class="card-title" href="#">Klyuk</a></li>
+	</div>
+</ul>
+
+<script >
+	$(window).on("load",function(){
+	    $(".loader-container").fadeOut(1500);
+	});
+</script>
+<script src="js/script.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</body>
+</html>
